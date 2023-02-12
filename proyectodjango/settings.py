@@ -42,8 +42,9 @@ INSTALLED_APPS = [
     'newyear',
     'task',
     'pokemon',
-    # 'polls.apps.PollsConfig',
+    'polls.apps.PollsConfig',
     'sellapp.apps.SellappConfig',
+    'proyectodjango',
 ]
 
 MIDDLEWARE = [
