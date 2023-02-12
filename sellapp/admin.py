@@ -27,12 +27,12 @@ class CuentaClienteAdmin(admin.ModelAdmin):
 
 
 
-class InlinePlanAdmin(admin.TabularInline):
-  extra = 0
-  model = PlanCuenta
+# class InlinePlanAdmin(admin.TabularInline):
+#   extra = 0
+#   model = PlanCuenta
 
 class PlanAdmin(admin.ModelAdmin):
-  inlines = [InlinePlanAdmin]
+  inlines = []
 
 
 admin.site.register(Plan,PlanAdmin)

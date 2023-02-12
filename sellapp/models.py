@@ -10,7 +10,6 @@ class Cliente(models.Model):
 
 class Cuenta(models.Model):
   correo = models.EmailField()
-  contrasena = models.CharField(max_length=200)
   es_maestra = models.BooleanField()
 
   def __str__(self) -> str:
